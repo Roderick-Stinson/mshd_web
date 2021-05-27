@@ -49,7 +49,6 @@
 import {reactive} from "vue";
 import {ElMessage} from "element-plus";
 import { login } from "../Utils/login";
-import { setToken, removeToken } from "../Utils/auth";
 import router from "../router/index";
 
 export default {
@@ -91,10 +90,8 @@ export default {
         console.log(res)
         if (res.code === 200) {
           this.dialogVisible = false
-          setToken(res.token)
           router.push("/home")
         } else{
-          removeToken()
           ElMessage.error("账号或密码错误，请重新输入");}
       })
       .catch((error) => {

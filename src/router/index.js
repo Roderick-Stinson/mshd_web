@@ -28,12 +28,7 @@ const routes = [
         component: () => import('../views/House.vue')
       },
     ]
-  },
-  
-
-
-  
-
+  }
 ]
 
 const router = createRouter({
