@@ -27,6 +27,21 @@ const routes = [
         name: 'House',
         component: () => import('../views/House.vue')
       },
+      {
+        path: '/lifeline',
+        name: 'Lifeline',
+        component: () => import('../views/Lifeline.vue')
+      },
+      {
+        path: '/Secdisaster',
+        name: 'House',
+        component: () => import('../views/Secdisaster.vue')
+      },
+      {
+        path: '/earthquake',
+        name: 'Earthquake',
+        component: () => import('../views/Earthquake.vue')
+      },
     ]
   }
 ]
