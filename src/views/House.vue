@@ -10,7 +10,7 @@
 // @ is an alias to /src
 
 export default {
-  name: "Main",
+  name: "House",
   components: {
 
   },

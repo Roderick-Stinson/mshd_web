@@ -9,6 +9,10 @@
       <el-menu-item index="/Main" >首页</el-menu-item>
       <el-menu-item index="/People" >人员伤亡及失踪</el-menu-item>
       <el-menu-item index="/House" >房屋破坏</el-menu-item>
+      <el-menu-item index="/Lifeline" >生命线灾情</el-menu-item>
+      <el-menu-item index="/Secdisaster" >次生灾害</el-menu-item>
+      <el-menu-item index="/Earthquake" >震情</el-menu-item>
+      
     </el-menu>
 
     <el-button

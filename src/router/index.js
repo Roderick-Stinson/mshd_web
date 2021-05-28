@@ -33,8 +33,8 @@ const routes = [
         component: () => import('../views/Lifeline.vue')
       },
       {
-        path: '/Secdisaster',
-        name: 'House',
+        path: '/secdisaster',
+        name: 'Secdisaster',
         component: () => import('../views/Secdisaster.vue')
       },
       {
